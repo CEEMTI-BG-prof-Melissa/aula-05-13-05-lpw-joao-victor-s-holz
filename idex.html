@@ -1,27 +1,23 @@
- <html>
-  <head>
-    <title> </title>
-  </head>
-<body>
-  <h1> Formulário com Método GET </h1>
-    <form>
-   Login: <input type="text"> 
-  <br>
-  <br> Senha: <input typ="password"> 
-  <br>
-  <br> <button> Entrar </button> 
-    </form>
+<html>
+    <body>
+      <h2> Formulário com Método GET </h2>
+      <form action="/pag.php" method="get">
+        Login: <input type="text" id="login" name="login"> 
+        <br><br>
+        Senha: <input typ="password" id="senha" name="senha">
+        <br><br> 
+        <input type="button" Entrar value="entrar">
+      </form>
 
-  <h1> Formulário com Método POST </h1>
-    <form>
-   Login: <input type="text"> 
-  <br>
-  <br> Senha: <input typ="password"> 
-  <br>
-  <br> <button> Entrar </button> 
-    </form>
-  
-</body>
+      <h2> Formulário com Método POST </h2>
+      <form action="pag.php" method="past">
+        Login: <input type="text" id="login" name="login">
+        <br><br> 
+        Senha: <input typ="password" id="senha" name="senha">
+        <br><br> 
+        <input type="button" Entrar value="entrar">
+      </form>
+    </body>
 </html>
   
   
